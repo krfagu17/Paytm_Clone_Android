@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../Header'
 import IconsSection from '../IconsSection'
 import IconSection2 from '../IconSection2'
+import IconSection3 from '../IconSection3'
 import Banner2 from '../Banner2'
 import Banner3 from '../Banner3'
 import Banner4 from '../Banner4'
@@ -35,7 +36,7 @@ const Home = () => {
             <Banner2 />
             <Banner3 />
             <IconSection2 />
-            <Banner4 />
+            <IconSection3 />
 
             {/* end point */}
             <View style={{ height: 100 }}></View>
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
     height: '100%',
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    padding: 20,
+    padding: 0,
   },
   carasoule: {
     backgroundColor: 'red',
